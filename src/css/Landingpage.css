@@ -11,6 +11,7 @@ height: 15vh;
     justify-content: end;
     align-items:center ;
     flex-direction: row;
+    gap: 10%;
     background-image: url('../assets/wave\ \(4\).svg');
 width: 175vh;
 }
@@ -62,11 +63,25 @@ bottom: 0;
 
 }
 
-.bt-landinpage{
-    width: 15vh;
-    height: 5vh;
-    margin: 5vh;
-    border: blue 1px solid;
-    background-color: white;
-    border-radius: 20px;
+.bt-landinpage {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: #cde4f3;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bt-landinpage:hover {
+    background-color: rgb(191, 212, 243);
+}
+
+.bt-landinpage:active{
+    color: black;
 }
